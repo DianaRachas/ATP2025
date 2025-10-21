@@ -1,0 +1,5 @@
+Ana Rita;125486;12::16::15|
+Francisca Rocha;214273;17::18::20|
+Beatriz Fernandes;120909;12::11::10|
+João Pedro;120292;12::14::16|
+David Silva;120906;18::16::18|
