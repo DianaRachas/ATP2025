@@ -161,7 +161,7 @@ def grafico_evolucao_fila(historico_fila):
     plt.ylabel("Tamanho da fila de espera")
     plt.title("Evolução do tamanho da fila ao longo do tempo")
     plt.grid(True)
-    plt.show
+    plt.show()
 
 # Ocupação dos médicos durante a simulação
 
@@ -201,7 +201,7 @@ def grafico_ocupacao_medicos(medicos):
     plt.grid(axis="y")
 
     plt.legend()
-    plt.show
+    plt.show()
 
 # Tamanho médio da fila vs Taxa de chegada (λ)
 
@@ -225,7 +225,7 @@ def grafico_fila_media_vs_lambda(lambdas):
     plt.ylabel("Tamanho médio da fila")
     plt.title("Tamanho médio da fila vs Taxa de chegada (λ)")
     plt.grid(True)
-    plt.show
+    plt.show()
 
 # Tempo médio de espera de prioridade
 
@@ -247,7 +247,7 @@ def grafico_tempo_medio_espera_prioridade(tempos_espera_prioridade):
     plt.ylabel("Tempo médio de espera (minutos)")
     plt.title("Tempo médio de espera por prioridade")
     plt.grid(axis="y")
-    plt.show
+    plt.show()
 
 # Desistências acumuladas ao longo do tempo
 
@@ -265,7 +265,7 @@ def grafico_desistencias_tempo(historico_desistencias):
     plt.ylabel("Número de desistências")
     plt.title("Desistências acumuladas ao longo do tempo")
     plt.grid(True)
-    plt.show
+    plt.show()
 
 # Ocupação de médicos ao longo do tempo
 
@@ -283,7 +283,7 @@ def grafico_ocupacao_ao_longo_do_tempo(historico_ocupacao):
     plt.ylabel("Número de médicos ocupados")
     plt.title("Ocupação dos médicos ao longo do tempo")
     plt.grid(True)
-    plt.show
+    plt.show()
 
 # -------- FUNÇÃO PRINCIPAL ---------------------------------
 
@@ -1105,4 +1105,5 @@ while executar:
             "  Encerra a aplicação de forma segura.\n"
         )
         
+
 window.close()
